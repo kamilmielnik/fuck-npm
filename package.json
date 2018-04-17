@@ -1,6 +1,6 @@
 {
   "name": "fuck-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Removes `node_modules` & runs `npm install`",
   "author": {
     "name": "Kamil Mielnik",

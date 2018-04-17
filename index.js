@@ -4,14 +4,14 @@ const del = require('del');
 const path = require('path');
 
 const removeDirectory = (filepath) => {
-  console.log(`Deleting: ${filepath}`);
+  console.log(chalk.yellow(`Deleting: ${filepath}`));
   del.sync(filepath);
   console.log(chalk.green(`Deleted: ${filepath}`));
 };
 
 const executeCommand = (command) => {
-  console.log(`Executing: ${command}`);
-  execSync(command);
+  console.log(chalk.yellow(`Executing: ${command}`));
+  execSync(command, { stdio: [ 0, 1, 2 ] });
   console.log(chalk.green(`Executed: ${command}`));
 };
 
