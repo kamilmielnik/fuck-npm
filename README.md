@@ -12,12 +12,12 @@ npm install -g fuck-npm
 ```
 
 ## Usage
-Change your current working directory to your repository directory, eg.
+1. Change your current working directory to your repository directory, e.g.
 ```
 cd ~/projects/my-project
 ```
-Run `fuck-npm`
+2. Run `fuck-npm`
 ```
 fuck-npm
 ```
-Relax
+3. Relax
