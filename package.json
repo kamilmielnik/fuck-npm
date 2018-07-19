@@ -1,6 +1,6 @@
 {
   "name": "fuck-npm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Removes `node_modules` & runs `npm install`",
   "author": {
     "name": "Kamil Mielnik",
@@ -34,7 +34,7 @@
     "fuck-npm": "./bin/fuck-npm.js"
   },
   "dependencies": {
-    "chalk": "^2.4.0",
+    "chalk": "^2.4.1",
     "del": "^3.0.0"
   }
 }

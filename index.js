@@ -3,20 +3,24 @@ const { execSync } = require('child_process');
 const del = require('del');
 const path = require('path');
 
-const removeDirectory = (filepath) => {
+const remove = (filepath) => {
   console.log(chalk.yellow(`Deleting: ${filepath}`));
   del.sync(filepath);
   console.log(chalk.green(`Deleted: ${filepath}`));
 };
 
-const executeCommand = (command) => {
+const execute = (command) => {
   console.log(chalk.yellow(`Executing: ${command}`));
   execSync(command, { stdio: [ 0, 1, 2 ] });
   console.log(chalk.green(`Executed: ${command}`));
 };
 
-module.exports = () => {
-  const nodeModulesPath = path.join(process.cwd(), 'node_modules');
-  removeDirectory(nodeModulesPath);
-  executeCommand('npm install');
+module.exports = ({ cwd, removePackageLockJson }) => {
+  const nodeModulesPath = path.join(cwd, 'node_modules');
+  const packageLockJsonPath = path.join(cwd, 'package-lock.json');
+  remove(nodeModulesPath);
+  if (removePackageLockJson) {
+    remove(packageLockJsonPath);
+  }
+  execute('npm install');
 };

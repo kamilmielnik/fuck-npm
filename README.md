@@ -4,7 +4,9 @@ This command line tool will remove `node_modules` directory & run `npm install`.
 
 Additionally, this has been tested against the following error on Windows:
 
-> The source file name(s) are larger than is supported by the file system. > Try moving to a location which has a shorter path name, or try renaming > to shorter name(s) before attempting this operation
+> The source file name(s) are larger than is supported by the file system.
+> Try moving to a location which has a shorter path name, or try renaming
+> to shorter name(s) before attempting this operation.
 
 ## Installation
 ```
@@ -21,3 +23,9 @@ cd ~/projects/my-project
 fuck-npm
 ```
 3. Relax
+
+### Frenzy mode
+When you're really desperate you may also want to get rid of `package-lock.json`. To do that, simply pass **any** parameter to the tool, e.g.
+```
+fuck-npm asohdiq3iuoye
+```
