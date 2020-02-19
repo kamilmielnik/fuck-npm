@@ -11,7 +11,7 @@ const remove = (filepath) => {
 
 const execute = (command) => {
   console.log(chalk.yellow(`Executing: ${command}`));
-  execSync(command, { stdio: [ 0, 1, 2 ] });
+  execSync(command, { stdio: [0, 1, 2] });
   console.log(chalk.green(`Executed: ${command}`));
 };
 
