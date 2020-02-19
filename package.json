@@ -34,7 +34,7 @@
     "fuck-npm": "./bin/fuck-npm.js"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "del": "^3.0.0"
+    "chalk": "^3.0.0",
+    "del": "^5.1.0"
   }
 }
