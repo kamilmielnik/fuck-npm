@@ -1,8 +1,9 @@
 # fuck-npm
 
-![Dependencies](https://img.shields.io/david/kamilmielnik/fuck-npm)
-![Node version](https://img.shields.io/node/v/fuck-npm)
 ![License](https://img.shields.io/npm/l/fuck-npm)
+![Node version](https://img.shields.io/node/v/fuck-npm)
+![Dependencies](https://img.shields.io/david/kamilmielnik/fuck-npm)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/kamilmielnik/fuck-npm)
 
 ## Description
 This command line tool will remove `node_modules` directory & run `npm install`. Useful when you're desperate.
