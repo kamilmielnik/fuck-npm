@@ -38,7 +38,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "del": "^5.1.0",
-    "yargs": "^15.1.0"
+    "yargs": "^15.3.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
