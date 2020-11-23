@@ -2,31 +2,6 @@
   "name": "fuck-npm",
   "version": "1.2.1",
   "description": "Removes `node_modules` & runs `npm install`",
-  "engines": {
-    "node": ">=10"
-  },
-  "bin": {
-    "fuck-npm": "./bin/fuck-npm.js"
-  },
-  "scripts": {
-    "prettier": "prettier --list-different './**/*.js'",
-    "prettier:fix": "npm run prettier -- --write --no-list-different",
-    "start": "node ./bin/fuck-npm.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kamilmielnik/fuck-npm.git"
-  },
-  "author": {
-    "name": "Kamil Mielnik",
-    "email": "kamil.adam.mielnik@gmail.com",
-    "url": "http://kamilmielnik.com/"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kamilmielnik/fuck-npm/issues"
-  },
-  "homepage": "https://github.com/kamilmielnik/fuck-npm#readme",
   "keywords": [
     "npm",
     "install",
@@ -35,12 +10,39 @@
     "node",
     "node.js"
   ],
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "fuck-npm": "./bin/fuck-npm.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kamil Mielnik",
+    "email": "kamil.adam.mielnik@gmail.com",
+    "url": "http://kamilmielnik.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilmielnik/fuck-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamilmielnik/fuck-npm/issues"
+  },
+  "homepage": "https://github.com/kamilmielnik/fuck-npm#readme",
+  "scripts": {
+    "prettier": "prettier --list-different './**/*.js'",
+    "prettier:fix": "npm run prettier -- --write --no-list-different",
+    "release": "np --no-2fa",
+    "start": "node ./bin/fuck-npm.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "del": "^6.0.0",
     "yargs": "^16.1.1"
   },
   "devDependencies": {
+    "np": "^7.0.0",
     "prettier": "^2.2.0"
   }
 }
