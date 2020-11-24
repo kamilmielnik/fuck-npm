@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/github/package-json/v/kamilmielnik/fuck-npm)
 ![License](https://img.shields.io/npm/l/fuck-npm)
 ![Node version](https://img.shields.io/node/v/fuck-npm)
-![Dependencies](https://img.shields.io/david/kamilmielnik/fuck-npm)
+![Dependencies](https://img.shields.io/librariesio/github/kamilmielnik/fuck-npm)
 ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/kamilmielnik/fuck-npm)
 ![Prettier](https://github.com/kamilmielnik/fuck-npm/workflows/Prettier/badge.svg)
 
