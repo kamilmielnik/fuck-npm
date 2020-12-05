@@ -17,7 +17,7 @@ Additionally, this has been tested against the following error on Windows:
 > to shorter name(s) before attempting this operation.
 
 ## Installation
-```
+```Shell
 npm install -g fuck-npm
 ```
 
