@@ -23,17 +23,17 @@ npm install -g fuck-npm
 
 ## Usage
 1. Change your current working directory to your repository directory, e.g.
-```
+```Shell
 cd ~/projects/my-project
 ```
 2. Run `fuck-npm`
-```
+```Shell
 fuck-npm
 ```
 3. Relax
 
 ### Frenzy mode
 When you're really desperate you may also want to get rid of `package-lock.json`. To do that, simply pass **any** parameter to the tool, e.g.
-```
+```Shell
 fuck-npm asohdiq3iuoye
 ```
