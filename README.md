@@ -10,7 +10,9 @@
 ## Description
 This command line tool will remove `node_modules` directory & run `npm install`. Useful when you're desperate.
 
-Additionally, this has been tested against the following error on Windows:
+
+### Windows - Source Path Too long
+`fuck-npm` has been tested against the following error on Windows:
 
 > The source file name(s) are larger than is supported by the file system.
 > Try moving to a location which has a shorter path name, or try renaming
@@ -30,5 +32,5 @@ cd ~/projects/my-project
 fuck-npm
 
 # remove "node_modules" & "package-lock.json", and then run "npm install"
-fuck-npm aslkjdals # pass any parameterer (just mash your keyboard!)
+fuck-npm aslkjdals # pass any parameter (just mash your keyboard!)
 ```
