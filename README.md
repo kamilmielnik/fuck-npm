@@ -11,7 +11,7 @@
 This command line tool will remove `node_modules` directory & run `npm install`. Useful when you're desperate.
 
 
-### Windows - Source Path Too long
+### Windows (NFTS) - "Source Path Too Long" error
 `fuck-npm` has been tested against the following error on Windows:
 
 > The source file name(s) are larger than is supported by the file system.
