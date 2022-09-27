@@ -42,7 +42,7 @@
     "yargs": "^17.5.1"
   },
   "devDependencies": {
-    "np": "^3.0.4",
+    "np": "^7.6.2",
     "prettier": "^2.7.1"
   }
 }
