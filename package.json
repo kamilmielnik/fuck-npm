@@ -33,7 +33,7 @@
   "scripts": {
     "prettier": "prettier --list-different './**/*.js'",
     "prettier:fix": "npm run prettier -- --write --no-list-different",
-    "release": "np",
+    "release": "np --no-tests",
     "start": "node ./bin/fuck-npm.js"
   },
   "dependencies": {
