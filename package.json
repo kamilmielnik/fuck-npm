@@ -1,6 +1,6 @@
 {
   "name": "fuck-npm",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "description": "Removes `node_modules` & runs `npm install`",
   "keywords": [
     "npm",
