@@ -1,3 +1,9 @@
+# Deprecated
+
+⚠️ This tool is no longer maintained or supported. Improvements in npm have made it obsolete. ⚠️
+
+----
+
 # fuck-npm
 
 ![Version](https://img.shields.io/github/package-json/v/kamilmielnik/fuck-npm)
